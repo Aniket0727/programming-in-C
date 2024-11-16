@@ -2,20 +2,22 @@
 
 int main()
 {
-       int var = 2;
+       char ch;
+       printf("Enter Character: ");
+       scanf("%c",&ch);
 
     // declaring switch cases
-    switch (var) 
+    switch (ch) 
     {
-    case 1:
-        printf("Case 1 is executed");
+    case 'a':
+        printf("Its a");
         break;
-    case 2:
-        printf("Case 2 is executed");
+    case 'b':
+        printf("Its b");
         break;
     default:
-        printf("Default Case is executed");
-        break;
+        printf("Its not a and b");
+
     }
 
     return 0;    
